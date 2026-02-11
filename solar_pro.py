@@ -286,10 +286,4 @@ with tab3:
             st.warning("根据数据分析，光伏发电基本被实时消纳，或者负荷极大光伏极小，**不建议配置储能**，主要依靠市电补充。")
 
     else:
-        st.info("等待数据分析...")streamlit run solar_pro.py
-        streamlit
-        pandas
-        numpy
-        requests
-        plotly
-        openpyxl
+        st.info("等待数据分析...")
